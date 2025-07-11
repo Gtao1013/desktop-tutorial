@@ -1,0 +1,812 @@
+{
+  "scan_summary": {
+    "total_starship_directories": 3,
+    "total_files_scanned": 165,
+    "scan_time": "2025-07-11 09:17:48"
+  },
+  "file_counts": {},
+  "naming_patterns": {},
+  "missing_files": {},
+  "unexpected_files": {},
+  "directory_structure": {
+    "1-2000/starship_data": {
+      "subdirectories": [
+        "airfoils",
+        "extracted_params",
+        "results",
+        "param_visualizations",
+        "pointclouds"
+      ],
+      "file_counts": {
+        "airfoils": 16,
+        "extracted_params": 13,
+        "results": 13,
+        "param_visualizations": 6,
+        "pointclouds": 21
+      },
+      "file_extensions": {
+        ".dat": 16,
+        ".json": 19,
+        ".csv": 7,
+        ".png": 6,
+        ".ply": 21
+      },
+      "naming_patterns": {
+        "airfoils": [
+          "airfoil_N"
+        ],
+        "extracted_params": [
+          "params_N"
+        ],
+        "results": [
+          "merged_N",
+          "aero_N"
+        ],
+        "param_visualizations": [
+          "viz_N"
+        ],
+        "pointclouds": [
+          "sample_N"
+        ]
+      },
+      "sample_files": {
+        "airfoils": [
+          {
+            "filename": "airfoil_0020.dat",
+            "path": "airfoil_0020.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0050.dat",
+            "path": "airfoil_0050.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0039.dat",
+            "path": "airfoil_0039.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0038.dat",
+            "path": "airfoil_0038.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0023.dat",
+            "path": "airfoil_0023.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0030.dat",
+            "path": "airfoil_0030.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0033.dat",
+            "path": "airfoil_0033.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0016.dat",
+            "path": "airfoil_0016.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0014.dat",
+            "path": "airfoil_0014.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0015.dat",
+            "path": "airfoil_0015.dat",
+            "size": 21
+          }
+        ],
+        "extracted_params": [
+          {
+            "filename": "params_0027.json",
+            "path": "params_0027.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0014.json",
+            "path": "params_0014.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0050.json",
+            "path": "params_0050.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0038.json",
+            "path": "params_0038.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0039.json",
+            "path": "params_0039.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0044.json",
+            "path": "params_0044.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0035.json",
+            "path": "params_0035.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0015.json",
+            "path": "params_0015.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0017.json",
+            "path": "params_0017.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0032.json",
+            "path": "params_0032.json",
+            "size": 21
+          }
+        ],
+        "results": [
+          {
+            "filename": "aero_0017.json",
+            "path": "aero_analysis/aero_0017.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0035.json",
+            "path": "aero_analysis/aero_0035.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0015.json",
+            "path": "aero_analysis/aero_0015.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0025.json",
+            "path": "aero_analysis/aero_0025.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0044.json",
+            "path": "aero_analysis/aero_0044.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0034.json",
+            "path": "aero_analysis/aero_0034.json",
+            "size": 21
+          },
+          {
+            "filename": "merged_0035.csv",
+            "path": "merged_data/merged_0035.csv",
+            "size": 21
+          },
+          {
+            "filename": "merged_0039.csv",
+            "path": "merged_data/merged_0039.csv",
+            "size": 21
+          },
+          {
+            "filename": "merged_0004.csv",
+            "path": "merged_data/merged_0004.csv",
+            "size": 20
+          },
+          {
+            "filename": "merged_0016.csv",
+            "path": "merged_data/merged_0016.csv",
+            "size": 21
+          }
+        ],
+        "param_visualizations": [
+          {
+            "filename": "viz_0015.png",
+            "path": "viz_0015.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0038.png",
+            "path": "viz_0038.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0017.png",
+            "path": "viz_0017.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0034.png",
+            "path": "viz_0034.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0044.png",
+            "path": "viz_0044.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0016.png",
+            "path": "viz_0016.png",
+            "size": 21
+          }
+        ],
+        "pointclouds": [
+          {
+            "filename": "sample_0034.ply",
+            "path": "sample_0034.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0035.ply",
+            "path": "sample_0035.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0033.ply",
+            "path": "sample_0033.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0016.ply",
+            "path": "sample_0016.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0025.ply",
+            "path": "sample_0025.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0044.ply",
+            "path": "sample_0044.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0030.ply",
+            "path": "sample_0030.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0027.ply",
+            "path": "sample_0027.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0037.ply",
+            "path": "sample_0037.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0014.ply",
+            "path": "sample_0014.ply",
+            "size": 23
+          }
+        ]
+      }
+    },
+    "1-10000/starship_data": {
+      "subdirectories": [
+        "airfoils",
+        "extracted_params",
+        "results",
+        "param_visualizations",
+        "pointclouds"
+      ],
+      "file_counts": {
+        "airfoils": 5,
+        "extracted_params": 6,
+        "results": 4,
+        "param_visualizations": 5,
+        "pointclouds": 9
+      },
+      "file_extensions": {
+        ".dat": 5,
+        ".json": 8,
+        ".csv": 2,
+        ".png": 5,
+        ".ply": 9
+      },
+      "naming_patterns": {
+        "airfoils": [
+          "airfoil_N"
+        ],
+        "extracted_params": [
+          "params_N"
+        ],
+        "results": [
+          "merged_N",
+          "aero_N"
+        ],
+        "param_visualizations": [
+          "viz_N"
+        ],
+        "pointclouds": [
+          "sample_N"
+        ]
+      },
+      "sample_files": {
+        "airfoils": [
+          {
+            "filename": "airfoil_0029.dat",
+            "path": "airfoil_0029.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0010.dat",
+            "path": "airfoil_0010.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0005.dat",
+            "path": "airfoil_0005.dat",
+            "size": 20
+          },
+          {
+            "filename": "airfoil_0007.dat",
+            "path": "airfoil_0007.dat",
+            "size": 20
+          },
+          {
+            "filename": "airfoil_0043.dat",
+            "path": "airfoil_0043.dat",
+            "size": 21
+          }
+        ],
+        "extracted_params": [
+          {
+            "filename": "params_0028.json",
+            "path": "params_0028.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0031.json",
+            "path": "params_0031.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0043.json",
+            "path": "params_0043.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0010.json",
+            "path": "params_0010.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0005.json",
+            "path": "params_0005.json",
+            "size": 20
+          },
+          {
+            "filename": "params_0007.json",
+            "path": "params_0007.json",
+            "size": 20
+          }
+        ],
+        "results": [
+          {
+            "filename": "aero_0029.json",
+            "path": "aero_analysis/aero_0029.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0011.json",
+            "path": "aero_analysis/aero_0011.json",
+            "size": 21
+          },
+          {
+            "filename": "merged_0026.csv",
+            "path": "merged_data/merged_0026.csv",
+            "size": 21
+          },
+          {
+            "filename": "merged_0028.csv",
+            "path": "merged_data/merged_0028.csv",
+            "size": 21
+          }
+        ],
+        "param_visualizations": [
+          {
+            "filename": "viz_0043.png",
+            "path": "viz_0043.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0029.png",
+            "path": "viz_0029.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0031.png",
+            "path": "viz_0031.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0010.png",
+            "path": "viz_0010.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0026.png",
+            "path": "viz_0026.png",
+            "size": 21
+          }
+        ],
+        "pointclouds": [
+          {
+            "filename": "sample_0043.ply",
+            "path": "sample_0043.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0031.ply",
+            "path": "sample_0031.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0026.ply",
+            "path": "sample_0026.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0028.ply",
+            "path": "sample_0028.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0005.ply",
+            "path": "sample_0005.ply",
+            "size": 22
+          },
+          {
+            "filename": "sample_0010.ply",
+            "path": "sample_0010.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0029.ply",
+            "path": "sample_0029.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0011.ply",
+            "path": "sample_0011.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0007.ply",
+            "path": "sample_0007.ply",
+            "size": 22
+          }
+        ]
+      }
+    },
+    "1-100/starship_data": {
+      "subdirectories": [
+        "airfoils",
+        "extracted_params",
+        "results",
+        "param_visualizations",
+        "pointclouds"
+      ],
+      "file_counts": {
+        "airfoils": 13,
+        "extracted_params": 10,
+        "results": 13,
+        "param_visualizations": 11,
+        "pointclouds": 20
+      },
+      "file_extensions": {
+        ".dat": 13,
+        ".json": 17,
+        ".csv": 6,
+        ".png": 11,
+        ".ply": 20
+      },
+      "naming_patterns": {
+        "airfoils": [
+          "airfoil_N"
+        ],
+        "extracted_params": [
+          "params_N"
+        ],
+        "results": [
+          "merged_N",
+          "aero_N"
+        ],
+        "param_visualizations": [
+          "viz_N"
+        ],
+        "pointclouds": [
+          "sample_N"
+        ]
+      },
+      "sample_files": {
+        "airfoils": [
+          {
+            "filename": "airfoil_0021.dat",
+            "path": "airfoil_0021.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0018.dat",
+            "path": "airfoil_0018.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0040.dat",
+            "path": "airfoil_0040.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0036.dat",
+            "path": "airfoil_0036.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0049.dat",
+            "path": "airfoil_0049.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0045.dat",
+            "path": "airfoil_0045.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0009.dat",
+            "path": "airfoil_0009.dat",
+            "size": 20
+          },
+          {
+            "filename": "airfoil_0047.dat",
+            "path": "airfoil_0047.dat",
+            "size": 21
+          },
+          {
+            "filename": "airfoil_0001.dat",
+            "path": "airfoil_0001.dat",
+            "size": 20
+          },
+          {
+            "filename": "airfoil_0012.dat",
+            "path": "airfoil_0012.dat",
+            "size": 21
+          }
+        ],
+        "extracted_params": [
+          {
+            "filename": "params_0003.json",
+            "path": "params_0003.json",
+            "size": 20
+          },
+          {
+            "filename": "params_0013.json",
+            "path": "params_0013.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0036.json",
+            "path": "params_0036.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0019.json",
+            "path": "params_0019.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0040.json",
+            "path": "params_0040.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0021.json",
+            "path": "params_0021.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0048.json",
+            "path": "params_0048.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0022.json",
+            "path": "params_0022.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0045.json",
+            "path": "params_0045.json",
+            "size": 21
+          },
+          {
+            "filename": "params_0001.json",
+            "path": "params_0001.json",
+            "size": 20
+          }
+        ],
+        "results": [
+          {
+            "filename": "aero_0045.json",
+            "path": "aero_analysis/aero_0045.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0019.json",
+            "path": "aero_analysis/aero_0019.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0009.json",
+            "path": "aero_analysis/aero_0009.json",
+            "size": 20
+          },
+          {
+            "filename": "aero_0006.json",
+            "path": "aero_analysis/aero_0006.json",
+            "size": 20
+          },
+          {
+            "filename": "aero_0036.json",
+            "path": "aero_analysis/aero_0036.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0042.json",
+            "path": "aero_analysis/aero_0042.json",
+            "size": 21
+          },
+          {
+            "filename": "aero_0002.json",
+            "path": "aero_analysis/aero_0002.json",
+            "size": 20
+          },
+          {
+            "filename": "merged_0002.csv",
+            "path": "merged_data/merged_0002.csv",
+            "size": 20
+          },
+          {
+            "filename": "merged_0024.csv",
+            "path": "merged_data/merged_0024.csv",
+            "size": 21
+          },
+          {
+            "filename": "merged_0001.csv",
+            "path": "merged_data/merged_0001.csv",
+            "size": 20
+          }
+        ],
+        "param_visualizations": [
+          {
+            "filename": "viz_0047.png",
+            "path": "viz_0047.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0040.png",
+            "path": "viz_0040.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0046.png",
+            "path": "viz_0046.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0006.png",
+            "path": "viz_0006.png",
+            "size": 20
+          },
+          {
+            "filename": "viz_0002.png",
+            "path": "viz_0002.png",
+            "size": 20
+          },
+          {
+            "filename": "viz_0012.png",
+            "path": "viz_0012.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0048.png",
+            "path": "viz_0048.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0042.png",
+            "path": "viz_0042.png",
+            "size": 21
+          },
+          {
+            "filename": "viz_0001.png",
+            "path": "viz_0001.png",
+            "size": 20
+          },
+          {
+            "filename": "viz_0009.png",
+            "path": "viz_0009.png",
+            "size": 20
+          }
+        ],
+        "pointclouds": [
+          {
+            "filename": "sample_0003.ply",
+            "path": "sample_0003.ply",
+            "size": 22
+          },
+          {
+            "filename": "sample_0042.ply",
+            "path": "sample_0042.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0013.ply",
+            "path": "sample_0013.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0006.ply",
+            "path": "sample_0006.ply",
+            "size": 22
+          },
+          {
+            "filename": "sample_0046.ply",
+            "path": "sample_0046.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0021.ply",
+            "path": "sample_0021.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0048.ply",
+            "path": "sample_0048.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0036.ply",
+            "path": "sample_0036.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0049.ply",
+            "path": "sample_0049.ply",
+            "size": 23
+          },
+          {
+            "filename": "sample_0001.ply",
+            "path": "sample_0001.ply",
+            "size": 22
+          }
+        ]
+      }
+    }
+  },
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "type": "FILE_STRUCTURE",
+      "description": "文件匹配成功率极低，需要检查文件命名规则和目录结构",
+      "action": "1. 检查实际文件命名模式\n2. 更新文件路径匹配逻辑\n3. 验证目录结构完整性"
+    }
+  ],
+  "matching_analysis": {
+    "total_unique_ids": 48,
+    "complete_samples": 1,
+    "partial_samples": 27,
+    "pointcloud_only": 1,
+    "success_rate": 0.020833333333333332
+  }
+}
