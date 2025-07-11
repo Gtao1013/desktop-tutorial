@@ -1,0 +1,776 @@
+{
+  "statistics": {
+    "total_pointclouds_found": 50,
+    "complete_samples": 0,
+    "incomplete_samples": 50,
+    "success_rate": 0.0,
+    "processing_time": 0.008754968643188477
+  },
+  "samples": [
+    {
+      "sample_id": "0034",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0034.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0034.dat",
+        "params": null,
+        "visualization": "demo_dataset/1-2000/starship_data/param_visualizations/viz_0034.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0035",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0035.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0035.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0035.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0033",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0033.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0033.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0033.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0016",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0016.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0016.dat",
+        "params": null,
+        "visualization": "demo_dataset/1-2000/starship_data/param_visualizations/viz_0016.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0025",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0025.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0025.dat",
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0044",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0044.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0044.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0044.json",
+        "visualization": "demo_dataset/1-2000/starship_data/param_visualizations/viz_0044.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0030",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0030.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0030.dat",
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0027",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0027.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0027.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0027.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0037",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0037.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0014",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0014.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0014.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0014.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0050",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0050.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0050.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0050.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0039",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0039.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0039.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0039.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0015",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0015.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0015.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0015.json",
+        "visualization": "demo_dataset/1-2000/starship_data/param_visualizations/viz_0015.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0023",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0023.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0023.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0023.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0008",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0008.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0041",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0041.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0017",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0017.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0017.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0017.json",
+        "visualization": "demo_dataset/1-2000/starship_data/param_visualizations/viz_0017.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0020",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0020.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0020.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0020.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0004",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0004.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0032",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0032.ply",
+        "airfoil": null,
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0032.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0038",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-2000/starship_data/pointclouds/sample_0038.ply",
+        "airfoil": "demo_dataset/1-2000/starship_data/airfoils/airfoil_0038.dat",
+        "params": "demo_dataset/1-2000/starship_data/extracted_params/params_0038.json",
+        "visualization": "demo_dataset/1-2000/starship_data/param_visualizations/viz_0038.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0043",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0043.ply",
+        "airfoil": "demo_dataset/1-10000/starship_data/airfoils/airfoil_0043.dat",
+        "params": "demo_dataset/1-10000/starship_data/extracted_params/params_0043.json",
+        "visualization": "demo_dataset/1-10000/starship_data/param_visualizations/viz_0043.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0031",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0031.ply",
+        "airfoil": null,
+        "params": "demo_dataset/1-10000/starship_data/extracted_params/params_0031.json",
+        "visualization": "demo_dataset/1-10000/starship_data/param_visualizations/viz_0031.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0026",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0026.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": "demo_dataset/1-10000/starship_data/param_visualizations/viz_0026.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0028",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0028.ply",
+        "airfoil": null,
+        "params": "demo_dataset/1-10000/starship_data/extracted_params/params_0028.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0005",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0005.ply",
+        "airfoil": "demo_dataset/1-10000/starship_data/airfoils/airfoil_0005.dat",
+        "params": "demo_dataset/1-10000/starship_data/extracted_params/params_0005.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0010",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0010.ply",
+        "airfoil": "demo_dataset/1-10000/starship_data/airfoils/airfoil_0010.dat",
+        "params": "demo_dataset/1-10000/starship_data/extracted_params/params_0010.json",
+        "visualization": "demo_dataset/1-10000/starship_data/param_visualizations/viz_0010.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0029",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0029.ply",
+        "airfoil": "demo_dataset/1-10000/starship_data/airfoils/airfoil_0029.dat",
+        "params": null,
+        "visualization": "demo_dataset/1-10000/starship_data/param_visualizations/viz_0029.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0011",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0011.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0007",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-10000/starship_data/pointclouds/sample_0007.ply",
+        "airfoil": "demo_dataset/1-10000/starship_data/airfoils/airfoil_0007.dat",
+        "params": "demo_dataset/1-10000/starship_data/extracted_params/params_0007.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0003",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0003.ply",
+        "airfoil": null,
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0003.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0042",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0042.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0042.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0013",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0013.ply",
+        "airfoil": null,
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0013.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0006",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0006.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0006.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0046",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0046.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0046.dat",
+        "params": null,
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0046.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0021",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0021.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0021.dat",
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0021.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0048",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0048.ply",
+        "airfoil": null,
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0048.json",
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0048.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0036",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0036.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0036.dat",
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0036.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0049",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0049.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0049.dat",
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0001",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0001.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0001.dat",
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0001.json",
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0001.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0019",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0019.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0019.dat",
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0019.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0002",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0002.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0002.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0047",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0047.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0047.dat",
+        "params": null,
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0047.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0018",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0018.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0018.dat",
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0045",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0045.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0045.dat",
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0045.json",
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0045.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0040",
+      "is_complete": false,
+      "missing_files": [
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0040.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0040.dat",
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0040.json",
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0040.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0022",
+      "is_complete": false,
+      "missing_files": [
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0022.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0022.dat",
+        "params": "demo_dataset/1-100/starship_data/extracted_params/params_0022.json",
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0009",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0009.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0009.dat",
+        "params": null,
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0009.png",
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0024",
+      "is_complete": false,
+      "missing_files": [
+        "airfoil",
+        "params",
+        "visualization",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0024.ply",
+        "airfoil": null,
+        "params": null,
+        "visualization": null,
+        "aero_data": null
+      }
+    },
+    {
+      "sample_id": "0012",
+      "is_complete": false,
+      "missing_files": [
+        "params",
+        "aero_data"
+      ],
+      "files": {
+        "pointcloud": "demo_dataset/1-100/starship_data/pointclouds/sample_0012.ply",
+        "airfoil": "demo_dataset/1-100/starship_data/airfoils/airfoil_0012.dat",
+        "params": null,
+        "visualization": "demo_dataset/1-100/starship_data/param_visualizations/viz_0012.png",
+        "aero_data": null
+      }
+    }
+  ]
+}
