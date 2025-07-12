@@ -4,7 +4,6 @@ Metrics and tools for evaluating point cloud generation quality
 """
 
 import numpy as np
-import torch
 from scipy.spatial.distance import directed_hausdorff
 from scipy.spatial import cKDTree
 from sklearn.metrics import pairwise_distances
@@ -12,6 +11,12 @@ from typing import List, Dict, Tuple, Optional, Union
 import logging
 from pathlib import Path
 import json
+
+try:
+    import torch
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
 
 try:
     import open3d as o3d
