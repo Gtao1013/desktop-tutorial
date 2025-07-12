@@ -4,8 +4,22 @@ Handles point cloud data loading, preprocessing, and batch preparation
 """
 
 import numpy as np
-import torch
-from torch.utils.data import Dataset, DataLoader
+from typing import List, Dict, Tuple, Optional, Union, Any
+import logging
+from scipy.spatial.transform import Rotation
+import trimesh
+
+try:
+    import torch
+    from torch.utils.data import Dataset, DataLoader
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
+    # Create dummy classes for when torch is not available
+    class Dataset:
+        pass
+    class DataLoader:
+        pass
 import h5py
 import json
 from pathlib import Path
@@ -78,7 +92,7 @@ class PointCloudDataset(Dataset):
     def __len__(self) -> int:
         return len(self.point_clouds)
     
-    def __getitem__(self, idx: int) -> Dict[str, torch.Tensor]:
+    def __getitem__(self, idx: int) -> Dict[str, Union[np.ndarray, Any]]:
         """Get a single data sample"""
         point_cloud = self.point_clouds[idx].copy()
         aero_condition = self.aero_conditions[idx].copy()
@@ -95,8 +109,8 @@ class PointCloudDataset(Dataset):
             point_cloud = self._normalize_point_cloud(point_cloud)
         
         return {
-            'point_cloud': torch.tensor(point_cloud, dtype=torch.float32),
-            'aero_condition': torch.tensor(aero_condition, dtype=torch.float32)
+            'point_cloud': torch.tensor(point_cloud, dtype=torch.float32) if TORCH_AVAILABLE else point_cloud.astype(np.float32),
+            'aero_condition': torch.tensor(aero_condition, dtype=torch.float32) if TORCH_AVAILABLE else aero_condition.astype(np.float32)
         }
     
     def _resample_points(self, point_cloud: np.ndarray) -> np.ndarray:
@@ -456,8 +470,11 @@ def create_dataloader(
     batch_size: int = 32,
     shuffle: bool = True,
     num_workers: int = 4
-) -> DataLoader:
+):
     """Create DataLoader for point cloud dataset"""
+    if not TORCH_AVAILABLE:
+        raise ImportError("PyTorch is required for DataLoader functionality")
+    
     return DataLoader(
         dataset,
         batch_size=batch_size,

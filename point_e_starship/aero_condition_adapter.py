@@ -4,9 +4,14 @@ Converts 21-dimensional aerodynamic conditions to Point-E compatible inputs
 """
 
 import numpy as np
-import torch
 from typing import List, Dict, Tuple, Optional, Union
 import logging
+
+try:
+    import torch
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -188,7 +193,7 @@ class AeroConditionAdapter:
         
         return "Starship-like " + ", ".join(description_parts)
     
-    def to_embedding_vector(self, aero_vector: np.ndarray, embed_dim: int = 512) -> torch.Tensor:
+    def to_embedding_vector(self, aero_vector: np.ndarray, embed_dim: int = 512):
         """
         Convert aerodynamic vector to embedding for direct model input
         
@@ -197,7 +202,7 @@ class AeroConditionAdapter:
             embed_dim: Target embedding dimension
             
         Returns:
-            Embedding tensor
+            Embedding tensor or numpy array
         """
         aero_data = self.parse_aero_vector(aero_vector)
         normalized_data = self.normalize_coefficients(aero_data)
@@ -241,7 +246,10 @@ class AeroConditionAdapter:
             # Truncate if needed
             expanded = all_features[:embed_dim]
         
-        return torch.tensor(expanded, dtype=torch.float32)
+        if TORCH_AVAILABLE:
+            return torch.tensor(expanded, dtype=torch.float32)
+        else:
+            return expanded.astype(np.float32)
     
     def create_batch_descriptions(self, aero_vectors: np.ndarray) -> List[str]:
         """
@@ -258,7 +266,7 @@ class AeroConditionAdapter:
             descriptions.append(self.to_text_description(aero_vector))
         return descriptions
     
-    def create_batch_embeddings(self, aero_vectors: np.ndarray, embed_dim: int = 512) -> torch.Tensor:
+    def create_batch_embeddings(self, aero_vectors: np.ndarray, embed_dim: int = 512):
         """
         Create batch of embedding vectors from multiple aerodynamic vectors
         
@@ -267,12 +275,16 @@ class AeroConditionAdapter:
             embed_dim: Target embedding dimension
             
         Returns:
-            Embedding tensor of shape (batch_size, embed_dim)
+            Embedding tensor or array of shape (batch_size, embed_dim)
         """
         embeddings = []
         for aero_vector in aero_vectors:
             embeddings.append(self.to_embedding_vector(aero_vector, embed_dim))
-        return torch.stack(embeddings)
+        
+        if TORCH_AVAILABLE:
+            return torch.stack(embeddings)
+        else:
+            return np.stack(embeddings)
 
 
 def create_sample_aero_conditions() -> np.ndarray:
